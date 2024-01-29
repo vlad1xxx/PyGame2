@@ -12,7 +12,6 @@ circle_x, circle_y = (251, 251)
 mouse_x = 251
 mouse_y = 251
 
-
 while running:
     screen.fill((0, 0, 0))
     for event in pygame.event.get():
