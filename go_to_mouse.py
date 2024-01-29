@@ -19,8 +19,6 @@ while running:
             running = False
         if event.type == pygame.MOUSEBUTTONDOWN:
             mouse_x, mouse_y = event.pos
-            print(mouse_x, mouse_y)
-            print(circle_x, circle_y)
 
     if circle_y > mouse_y:
         circle_y -= 1
